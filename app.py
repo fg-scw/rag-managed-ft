@@ -85,7 +85,7 @@ def clean_db():
 
 # Initialize OpenAI embeddings
 embeddings = OpenAIEmbeddings(
-    openai_api_key=os.getenv("SCW_API_KEY"),
+    openai_api_key=os.getenv("SCW_SECRET_KEY"),
     openai_api_base=os.getenv("SCW_INFERENCE_EMBEDDINGS_ENDPOINT"),
     model="sentence-transformers/sentence-t5-xxl",
     tiktoken_enabled=False,
