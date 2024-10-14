@@ -1,0 +1,15 @@
+streamlit
+python-dotenv
+psycopg2-binary
+boto3
+langchain
+nltk
+tiktoken
+sentence-transformers
+langchain-openai
+langchain-postgres
+langchain-community
+langchain
+langchain-core
+unstructured
+unstructured[pdf]
