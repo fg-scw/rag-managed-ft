@@ -1,6 +1,7 @@
   # Simple RAG Pipeline on SCW
 
    # How to use it :
+  - Add Instance to the private network (if you use private IPs)
   - git clone "repository"
   - chmod +x .install.sh
   - ./install.sh
