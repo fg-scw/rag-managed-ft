@@ -106,7 +106,7 @@ client_s3 = session.client(
 )
 
 paginator = client_s3.get_paginator('list_objects_v2')
-page_iterator = paginator.paginate(Bucket=os.getenv("SCW_BUCKET_NAME") # "rag-radio-france")
+page_iterator = paginator.paginate(Bucket=os.getenv("SCW_BUCKET_NAME")) # "rag-radio-france")
 
 # Iterate through metadata and process files
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, add_start_index=True, length_function=len, is_separator_regex=False)
