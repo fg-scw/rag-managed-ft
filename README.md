@@ -1,6 +1,7 @@
   # Simple RAG Pipeline on SCW
 
    # How to use it :
+  - Fill S3 Bucket with documents (PDFs)
   - Add Instance to the private network (if you use private IPs)
   - Connect to the Instance via ssh :
     - git clone "repository"
@@ -33,3 +34,5 @@
 
    # Launch the Application 
   - streamlit run streamlit_app.py
+
+Note : This Demo only works with PDF files, you have to add in the "requirements.txt" extension files you want to works with.
