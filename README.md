@@ -2,9 +2,10 @@
 
    # How to use it :
   - Add Instance to the private network (if you use private IPs)
-  - git clone "repository"
-  - chmod +x .install.sh
-  - ./install.sh
+  - Connect to the Instance via ssh :
+    - git clone "repository"
+    - chmod +x .install.sh
+    - ./install.sh
 
    # Create .env file
     -# Scaleway API credentials
