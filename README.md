@@ -1,5 +1,14 @@
   # Simple RAG Pipeline on SCW
 
+  # What products you need to make it works :
+  - 1* SCW API KEY & SECRET KEY with permissions on products below
+  - 1* Instances (CPU) with a public IP (or a Load Balancer in front)
+  - 1* Bucket S3 with PDF Files in it
+  - 1* Managed DB PostgreSQL with a database & users permissions
+  - 1* Managed Inference Embedding "sentence-transformers/sentence-t5-xxl"
+  - 1* Managed Inference LLM "meta/llama-3.1-8b-instruct:bf16"
+
+
    # How to use it :
   - Fill S3 Bucket with documents (PDFs)
   - Add Instance to the private network (if you use private IPs)
