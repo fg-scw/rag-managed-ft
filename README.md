@@ -31,4 +31,4 @@
     SCW_API_KEY="COPY HERE YOUR SECRET KEY"
 
    # Launch the Application 
-  - streamlit run streamlite_app.py
+  - streamlit run streamlit_app.py
